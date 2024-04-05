@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+STEP 1: Design and construct a clean and simple (and semantic) HTML table that would 
+effectively communicate the standings for every team in the NHL.
+STEP 2: Find out what each of the abbreviations for each of the data points mean and create suitable column headings.
+STEP 3: Validate your table to ensure that the structure is correct.
+STEP 4: CSS
+STEP 5: JS
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>NHL - Metropolitan Division</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/tables.css" rel="stylesheet">
+    <script src="js/tablesort/tablesort.min.js" defer></script>
+    <link href="js/tablesort/css/tablesort.css" rel="stylesheet">
+    <script src="js/tables.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>NHL - Metropolitan Division</h1>
+    </header>
+    <main>
+    <table id="teams">
+        <caption>Metropolitan Division Season 2023-2024</caption>
+        <colgroup>
+            <col />
+        </colgroup>
+        <colgroup>
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Teams</th>
+                <!--One heading per each column - Headings by default are bold & centred, can be changed-->
+                <th scope="col">Games Played</th>
+                <th scope="col">Wins</th>
+                <th scope="col">Losses</th>
+                <th scope="col">Overtime Losses</th>
+                <th scope="col">Points</th>
+                <th scope="col">Streak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Rangers</th>
+                <td>76</td>
+                <td>51</td>
+                <td>21</td>
+                <td>4</td>
+                <td>106</td>
+                <td>W1</td>
+            </tr>
+            <tr>
+                <th scope="row">Hurricanes</th>
+                <td>76</td>
+                <td>47</td>
+                <td>22</td>
+                <td>7</td>
+                <td>101</td>
+                <td>L1</td>
+            </tr>
+            <tr>
+                <th scope="row">Flyers</th>
+                <td>76</td>
+                <td>36</td>
+                <td>29</td>
+                <td>11</td>
+                <td>83</td>
+                <td>L5</td>
+            </tr>
+            <tr>
+                <th scope="row">Islanders</th>
+                <td>76</td>
+                <td>34</td>
+                <td>27</td>
+                <td>15</td>
+                <td>83</td>
+                <td>W3</td>
+            </tr>
+            <tr>
+                <th scope="row">Capitals</th>
+                <td>75</td>
+                <td>36</td>
+                <td>29</td>
+                <td>10</td>
+                <td>82</td>
+                <td>L4</td>
+            </tr>
+            <tr>
+                <th scope="row">Penguins</th>
+                <td>76</td>
+                <td>35</td>
+                <td>30</td>
+                <td>11</td>
+                <td>81</td>
+                <td>W3</td>
+            </tr>
+            <tr>
+                <th scope="row">Devils</th>
+                <td>76</td>
+                <td>36</td>
+                <td>36</td>
+                <td>4</td>
+                <td>76</td>
+                <td>L3</td>
+            </tr>
+            <tr>
+                <th scope="row">Blue Jackets</th>
+                <td>76</td>
+                <td>25</td>
+                <td>39</td>
+                <td>12</td>
+                <td>62</td>
+                <td>L1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+    </table>
+    </main>
+</body>
+</html>

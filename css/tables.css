@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+html {
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+table {
+
+    border-collapse: collapse;
+
+    caption-side: top;
+
+    width: 70%;
+    table-layout: auto;
+}
+
+td, th {
+    border: 1px solid #666;
+    padding: 0.5em;
+    text-align: center;
+}
+
+td:nth-child(6), th:nth-child(2){
+    font-weight:bold;
+}
+
+tbody tr:hover {
+    background-color: rgb(0,0,0,0.2);
+}
+
+th {
+    background: rgba(225,225,225,1);
+}
+
+tbody th {
+    text-align: right;
+}
+
+tfoot td {
+    font-size: 60%;
+}
+
+caption {
+    font-size: 150%;
+}
+
